@@ -1,10 +1,10 @@
 class Aethertune < Formula
   desc "Terminal-based internet radio player with real-time audio visualization, built in Rust"
   homepage "https://github.com/nevermore23274/AetherTune"
-  url "https://github.com/nevermore23274/AetherTune/releases/download/v0.5.0/AetherTune-v0.5.0-linux-x86_64.tar.gz"
-  sha256 "PLACEHOLDER"
+  url "https://github.com/nevermore23274/AetherTune/releases/download/v0.5.1/AetherTune-v0.5.1-linux-x86_64.tar.gz"
+  sha256 "d16ab136d50836bfc76eb3c060c913d35142b5974e4685efe4d9a8c654258cf9"
   license "MIT"
-  version "0.5.0"
+  version "0.5.1"
 
   depends_on :linux
 
@@ -24,6 +24,6 @@ class Aethertune < Formula
   end
 
   test do
-    assert_match "AetherTune", shell_output("#{bin}/aethertune --help 2>&1", 1)
+    assert_match version.to_s, shell_output("#{bin}/aethertune --version 2>&1", 2)
   end
 end
