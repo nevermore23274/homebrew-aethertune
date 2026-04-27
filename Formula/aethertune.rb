@@ -1,10 +1,10 @@
 class Aethertune < Formula
   desc "Terminal-based internet radio player with real-time audio visualization, built in Rust"
   homepage "https://github.com/nevermore23274/AetherTune"
-  url "https://github.com/nevermore23274/AetherTune/releases/download/v0.5.1/AetherTune-v0.5.1-linux-x86_64.tar.gz"
-  sha256 "d16ab136d50836bfc76eb3c060c913d35142b5974e4685efe4d9a8c654258cf9"
+  url "https://github.com/nevermore23274/AetherTune/releases/download/v0.6.2/AetherTune-v0.6.2-linux-x86_64.tar.gz"
+  sha256 "f9b3494961901340fc3f52ab9f123adf84cd0cdd8f797319ef54b1cf0bbda4eb"
   license "MIT"
-  version "0.5.1"
+  version "0.6.2"
 
   depends_on :linux
 
@@ -15,10 +15,8 @@ class Aethertune < Formula
   def caveats
     <<~EOS
       AetherTune requires mpv and PulseAudio/PipeWire for full functionality:
-
         sudo apt install mpv pulseaudio-utils    # Debian/Ubuntu
         sudo pacman -S mpv pipewire-pulse        # Arch
-
       Without parec, the visualizer falls back to simulated mode.
     EOS
   end
