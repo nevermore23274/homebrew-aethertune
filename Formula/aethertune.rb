@@ -1,10 +1,10 @@
 class Aethertune < Formula
   desc "Terminal-based internet radio player with real-time audio visualization, built in Rust"
   homepage "https://github.com/nevermore23274/AetherTune"
-  url "https://github.com/nevermore23274/AetherTune/releases/download/v0.7.4/AetherTune-v0.7.4-linux-x86_64.tar.gz"
-  sha256 "ce1b129b375056026900420370f7dd0f4253f6a5f68f3111587a94009f2cfc8d"
+  url "https://github.com/nevermore23274/AetherTune/releases/download/v0.7.5/AetherTune-v0.7.5-linux-x86_64.tar.gz"
+  sha256 "843018927b69fa3ac05542da45ffe0843f8a1f2d5bff2d74122b0e490f65f9de"
   license "MIT"
-  version "0.7.4"
+  version "0.7.5"
 
   depends_on "mpv"
 
