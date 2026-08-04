@@ -2,23 +2,23 @@ class Aethertune < Formula
   desc "Terminal-based internet radio player with real-time audio visualization, built in Rust"
   homepage "https://github.com/nevermore23274/AetherTune"
   license "MIT"
-  version "0.10.1"
+  version "0.10.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/nevermore23274/AetherTune/releases/download/v0.10.1/AetherTune-v0.10.1-macos-aarch64.tar.gz"
-      sha256 "4c6504dbf730561b69c2714525c22d2dc08586e03ab6b2645a4d2d2c2ca0c464"
+      url "https://github.com/nevermore23274/AetherTune/releases/download/v0.10.2/AetherTune-v0.10.2-macos-aarch64.tar.gz"
+      sha256 "349a04952aa9fbc7f7b70430d78c9c4deab49fa1024c6e75a433f6cfb819fef2"
     end
     on_intel do
-      url "https://github.com/nevermore23274/AetherTune/releases/download/v0.10.1/AetherTune-v0.10.1-macos-x86_64.tar.gz"
-      sha256 "f52ec6da4ab57d20117393de4dde244e8ae35b1f4ca48ae8d127e6608ef362d8"
+      url "https://github.com/nevermore23274/AetherTune/releases/download/v0.10.2/AetherTune-v0.10.2-macos-x86_64.tar.gz"
+      sha256 "4ecd284a91b5cee8adb701f913524a905ec8dbb53724149bed1d350a123443c5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/nevermore23274/AetherTune/releases/download/v0.10.1/AetherTune-v0.10.1-linux-x86_64.tar.gz"
-      sha256 "4e4a6a82fbbe75739a0041621604910ae79db8baa97c8021e65cb7a53ed655a7"
+      url "https://github.com/nevermore23274/AetherTune/releases/download/v0.10.2/AetherTune-v0.10.2-linux-x86_64.tar.gz"
+      sha256 "172f2a9f6f383b6924be9fa363277ef0a8ab9097e35a7fd1e7d5290dbb2076c5"
     end
   end
 
