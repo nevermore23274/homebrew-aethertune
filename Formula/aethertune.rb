@@ -7,18 +7,18 @@ class Aethertune < Formula
   on_macos do
     on_arm do
       url "https://github.com/nevermore23274/AetherTune/releases/download/v0.10.2/AetherTune-v0.10.2-macos-aarch64.tar.gz"
-      sha256 "349a04952aa9fbc7f7b70430d78c9c4deab49fa1024c6e75a433f6cfb819fef2"
+      sha256 "7fce5bf94c6b732b9929789d6e34275956a88d2af672da70a681cba95ca3c9a7"
     end
     on_intel do
       url "https://github.com/nevermore23274/AetherTune/releases/download/v0.10.2/AetherTune-v0.10.2-macos-x86_64.tar.gz"
-      sha256 "4ecd284a91b5cee8adb701f913524a905ec8dbb53724149bed1d350a123443c5"
+      sha256 "84e6fd5794eb21ab1f1db1bf56f1f330387a26653c01fcebaab203ccbb9914b2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nevermore23274/AetherTune/releases/download/v0.10.2/AetherTune-v0.10.2-linux-x86_64.tar.gz"
-      sha256 "172f2a9f6f383b6924be9fa363277ef0a8ab9097e35a7fd1e7d5290dbb2076c5"
+      sha256 "efa1c58522aae83e4c2faa16ed39a9635e7a28f3d41498e54800c4e3a3f81662"
     end
   end
 
